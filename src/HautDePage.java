@@ -9,7 +9,7 @@ public class HautDePage {
 	
 	//WebElement Help = driver.findElement(By.xpath("//a[@href='/faq']"));
 	
-	public void navigate_HDP(WebDriver driver) {
+	public void navigate_HP(WebDriver driver) {
 		
 		WebElement linkFindaStore = driver.findElement(By.xpath("//a[@href='/store-finder']"));
 		
@@ -22,7 +22,7 @@ public class HautDePage {
         //driver.close();
 	}
 	
-	public void navigate2_HDP(WebDriver driver) {
+	public void navigate2_HP(WebDriver driver) {
 		
 		WebElement ContactUs = driver.findElement(By.xpath("//a[@href='http://www.cx.sap.com/contact']"));
 		

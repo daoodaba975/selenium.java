@@ -11,8 +11,8 @@ public class PRINCIPALE {
         
         // HAUT-DE-PAGE
         HautDePage instanceHautDePage = new HautDePage();
-        instanceHautDePage.navigate_HDP(driver);
-        instanceHautDePage.navigate2_HDP(driver);
+        instanceHautDePage.navigate_HP(driver);
+        //instanceHautDePage.navigate2_HDP(driver);
         
         /* MILIEU-DE-PAGE
         MilieuDePage instanceMilieuDePage = new MilieuDePage();
